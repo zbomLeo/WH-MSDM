@@ -71,7 +71,7 @@ WH-MSDM/:
 
 The experimental data were derived from a 1:250,000 3D geological structural model of the research area southwest of Guizhou Province. The model was processed through voxel dissection and attribute interpolation to generate 3D geologic block model datasets at four scales, with the software ***QuantyView*** from company named ***Wuhan Dida Quanty Science & Technology Co., Ltd.***, as shown in Figure 1. Table 1 shows total and valid block counts and percentages per scale. Equally partitioning the x, y, and z axes ensures uniform data distribution, reducing biases for fair and comparable experimental results and accurately assessing performance in efficiency, accuracy, and resource usage. All the data used for the experiment is stored under "./datas/orig/". The multiscale integrated dataset generated based on the experimental parameter settings will be stored under "./datas/genf/". All performance test result datasets will be stored under "./datas/stat/". The performance test result datasets will be further processed in "./result/dataprocessing.py" and then used to generate statistical charts using ***Origin*** software.
 
-![3D geological block models](.\images\(10) 3D-geological-block-models-at-four-scales.jpg)
+<img src=".\images\(10) 3D-geological-block-models-at-four-scales.jpg" />
 
 **Figure 1.** 3D geological block models at four scales: (a) Surface model, (b) D32, (c) D64, (d) D128, (e) D256
 
