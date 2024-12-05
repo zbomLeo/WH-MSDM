@@ -99,23 +99,20 @@ def cal(filepath, name):
             'WTimes': 'WT',
             'OctreeTimes': 'OT',
             'VdbTimes': 'VDBT',
-            'VdbWTimes': 'VDBWT',
             'GeoHashTimes': 'GHT',
             'WResultSize': 'WRS',
             'OctreeResultSize': 'ORS',
             'VdbResultSize': 'VDBRS',
-            'VdbWResultSize': 'VDBWRS',
             'GeoHashResultSize': 'GHRS',
             'WIOs': 'WIO',
             'OctreeIOs': 'OIO',
             'VdbIOs': 'VDBIO',
-            'VdbWIOs': 'VDBWIO',
             'GeoHashIOs': 'GHIO'
         }
         df = df.rename(columns=column_mapping)
         
         # Define the columns needed for mean calculation
-        required_columns = ['WRS', 'WT', 'OT', 'VDBT', 'VDBWT', 'GHT', 'WIO', 'OIO', 'VDBIO', 'VDBWIO', 'GHIO']
+        required_columns = ['WRS', 'WT', 'OT', 'VDBT', 'GHT', 'WIO', 'OIO', 'VDBIO', 'GHIO']
         
         # Validate that all required columns are present in the DataFrame
         if not all(col in df.columns for col in required_columns):
@@ -128,22 +125,20 @@ def cal(filepath, name):
         df_mean = df_mean / df_mean['WRS']
         
         # Create the time result DataFrame
-        time_columns = ['WT', 'OT', 'VDBT', 'VDBWT', 'GHT']
+        time_columns = ['WT', 'OT', 'VDBT', 'GHT']
         dfT = df_mean[time_columns].rename({
             'WT': 'WH-MSBM',
             'OT': 'Octree',
             'VDBT': 'VDB',
-            'VDBWT': 'WHVDB',
             'GHT': 'GeoHash',
         }).to_frame(name=name)
         
         # Create the I/O result DataFrame
-        io_columns = ['WIO', 'OIO', 'VDBIO', 'VDBWIO', 'GHIO']
+        io_columns = ['WIO', 'OIO', 'VDBIO', 'GHIO']
         dfIO = df_mean[io_columns].rename({
             'WIO': 'WH-MSBM',
             'OIO': 'Octree',
             'VDBIO': 'VDB',
-            'VDBWIO': 'WHVDB',
             'GHIO': 'GeoHash',
         }).to_frame(name=name)
         
