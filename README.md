@@ -531,7 +531,7 @@ query time, **(h)** Hybrid query I/O
 
 - 
 
-<img src=".\images\(17a) Comparison-in-hybrid-query-performance-time-cost.jpg" style="zoom:13%;" />!<img src=".\images\(17b) Comparison-in-hybrid-query-performance-io-cost.jpg" style="zoom:13%;">
+<img src=".\images\(17a) Comparison-in-hybrid-query-performance-time-cost.jpg" style="zoom:13%;" width="500" height="300" />!<img src=".\images\(17b) Comparison-in-hybrid-query-performance-io-cost.jpg" style="zoom:13%;" width="500" height="300">
 
 ​										**(a) Q<sub>H</sub> time cost																		(b) Q<sub>H</sub> I/O cost**
 
