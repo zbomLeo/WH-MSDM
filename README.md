@@ -480,7 +480,7 @@ query time, **(h)** Hybrid query I/O
 - The generation time of the index files will be printed in the console.
 - The results are processed in `./result/comparison.py` and visualized in Origin software, as shown in **Figure 5**.
 
-<img src=".\images\(14a) Comparison-in-data-organization-performance-time-cost.jpg" style="zoom:13%;" />!<img src=".\images\(14b) Comparison-in-data-organization-performance-io-cost.jpg" style="zoom:13%;">
+<img src=".\images\(14a) Comparison-in-data-organization-performance-time-cost.jpg" style="zoom:13%;" width="450" height="300" />!<img src=".\images\(14b) Comparison-in-data-organization-performance-io-cost.jpg" style="zoom:13%;" width="450" height="300" />
 
 ​										**(a) Integration time cost													(b) Integration file size**
 
@@ -503,7 +503,7 @@ query time, **(h)** Hybrid query I/O
 - The results are processed in `./result/comparison.py` and visualized in Origin software, as shown in **Figure 6**.
 
 
-<img src=".\images\(15a) Comparison-in-spatial-query-performance-time-cost.jpg" style="zoom:12%;" />!<img src=".\images\(15b) Comparison-in-spatial-query-performance-io-cost.jpg" style="zoom:12%;">
+<img src=".\images\(15a) Comparison-in-spatial-query-performance-time-cost.jpg" style="zoom:12%;"  width="450" height="300" />!<img src=".\images\(15b) Comparison-in-spatial-query-performance-io-cost.jpg" style="zoom:12%;" width="450" height="300" />
 
 ​										**(a) Q<sub>S </sub> time cost																		  (b) Q<sub>S</sub> I/O cost**
 
@@ -516,7 +516,7 @@ query time, **(h)** Hybrid query I/O
   - `singlePropertyQueryStatistics.xlsx`
 - The results are processed in `./result/comparison.py` and visualized in Origin software, as shown in **Figure 7**.
 
-<img src=".\images\(16a) Comparison-in-attribute-query-performance-time-cost.jpg" style="zoom:12%;" />!<img src=".\images\(16b) Comparison-in-attribute-query-performance-io-cost.jpg" style="zoom:12%;">
+<img src=".\images\(16a) Comparison-in-attribute-query-performance-time-cost.jpg" style="zoom:12%;" width="450" height="300" /><img src=".\images\(16b) Comparison-in-attribute-query-performance-io-cost.jpg" style="zoom:12%;" width="450" height="300" />
 
 ​										**(a) Q<sub>A</sub> time cost																	(b) Q<sub>A</sub> I/O cost**
 
@@ -529,9 +529,7 @@ query time, **(h)** Hybrid query I/O
   - `mixedQueryStatistics.xlsx`
 - The results are processed in `./result/comparison.py` and visualized in Origin software, as shown in **Figure 8**.
 
-- 
-
-<img src=".\images\(17a) Comparison-in-hybrid-query-performance-time-cost.jpg" style="zoom:13%;" width="500" height="300" />!<img src=".\images\(17b) Comparison-in-hybrid-query-performance-io-cost.jpg" style="zoom:13%;" width="500" height="300">
+<img src=".\images\(17a) Comparison-in-hybrid-query-performance-time-cost.jpg" style="zoom:13%;" width="450" height="300" /><img src=".\images\(17b) Comparison-in-hybrid-query-performance-io-cost.jpg" style="zoom:13%;" width="450" height="300" />
 
 ​										**(a) Q<sub>H</sub> time cost																		(b) Q<sub>H</sub> I/O cost**
 
