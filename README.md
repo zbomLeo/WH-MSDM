@@ -1,10 +1,14 @@
 # WH-MSDM
 
-WH-MSDM is a W-Hilbert curve based multiscale data model for spatial indexing and management of 3D geological blocks.
+WH-MSDM is a W-Hilbert curve based multiscale data model for spatial indexing and management of 3D geological blocks in Digital Earth applications.
 
-If you have any questions, please don't hesitate to reach out by email to the authors. Subsequent updates will be disseminated through the project's GitHub repository.
+This repository contains the source code for the paper "WH-MSDM: a W-Hilbert curve-based multiscale data model for spatial indexing and management of 3D geological blocks in Digital Earth applications" by **Genshen Chen et al.** 
 
+Corresponding author: **Prof. Gang Liu (liugang@cug.edu.cn)**
 
+Affiliation: School of Computer Science, China University of Geosciences(Wuhan)
+
+Date: Nov. 17, 2025
 
 ## Project structure
 
