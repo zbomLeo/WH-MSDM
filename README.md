@@ -1,14 +1,15 @@
 # WH-MSDM
 
-WH-MSDM is a W-Hilbert curve based multiscale data model for spatial indexing and management of 3D geological blocks in Digital Earth applications.
+Multiscale 3D geological characterization and joint analysis have become key avenues in spatial information sciences. However, the non-uniform spatial distribution of objects and scale heterogeneity in geological surveys lead to dispersed storage, long access paths, and limited query performance in managing multiscale 3D geological model data. This study presents a W-Hilbert curve-based multiscale data model (WH-MSDM) that improves data indexing and management through a unified data structure (UDS) for multi-scale blocks and a bidirectional mapping model (BMM) linking spatial coordinates to memory locations. It supports spatial, attribute, hybrid, and cross-scale queries for diverse retrieval tasks. By exploiting the space-filling properties of the W-Hilbert curve to linearize multidimensional geological data into a one-dimensional index, it preserves locality and increases query efficiency across scales. Experimental results demonstrate that WH-MSDM outperforms the three selected mainstream baselines in unified organization and diverse querying of multiscale 3D geological model data. It provides a data-model foundation for Digital Earth-oriented multiscale 3D geological analysis.
 
-This repository contains the source code for the paper "WH-MSDM: a W-Hilbert curve-based multiscale data model for spatial indexing and management of 3D geological blocks in Digital Earth applications" by **Genshen Chen et al.** 
+---
+This repository contains the source code for the paper "WH-MSDM: a W-Hilbert curve-based multiscale data model for spatial indexing and management of 3D geological blocks in Digital Earth applications" by **Genshen Chen, Gang Liu, Qiongqi Wu, Yang Dong, Zhiting Zhang, Xiangwu Zeng, and Junping Xiong** 
+
+This repository is owned and maintained by the authors of the above manuscript, submitted to Applied Sciences (Manuscript ID: applisci-4012106).
 
 Corresponding author: **Prof. Gang Liu (liugang@cug.edu.cn)**
-
 Affiliation: School of Computer Science, China University of Geosciences(Wuhan)
-
-Date: Nov. 17, 2025
+Update date: Nov. 17, 2025
 
 ## Project structure
 
